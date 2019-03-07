@@ -24,12 +24,16 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "prettier": "^1.16.4"
   },
   "keywords": [
     "gatsby",
+    "gatsbyjs",
     "react",
-    "graphql"
+    "graphql",
+    "apollo",
+    "apollo-client"
   ],
   "license": "MIT",
   "scripts": {
