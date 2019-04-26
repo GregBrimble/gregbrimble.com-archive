@@ -5139,10 +5139,10 @@ graphql@^14.1.1:
   dependencies:
     iterall "^1.2.2"
 
-gregbrimble-components@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/gregbrimble-components/-/gregbrimble-components-2.0.0.tgz#896c81d14bd652bf18dc9313a2b012834a7d5a32"
-  integrity sha512-TKUsEjZrthHgGwIcGYTq4quYPgGtyjUu7Ty4OPAL3WbzME9XY5GDyLWKzrBJzN1DVjWRyQqhLmfFR3kV52iINg==
+gregbrimble-components@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/gregbrimble-components/-/gregbrimble-components-2.3.0.tgz#34d0a317b12077d9ce91df25748b81ddf8a12bad"
+  integrity sha512-Xw8Z9jVG9Aq2TK3QccvlKD7y7cWgBRLeawduchA++fvUD1nEl1jgTc0kYNp5swipIXh1MZI5GFNwE5WGkPMpIQ==
   dependencies:
     prop-types "^15.7.2"
     styled-components "^4.1.3"
