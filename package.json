@@ -17,7 +17,7 @@
     "gatsby-plugin-sharp": "^2.0.35",
     "gatsby-source-filesystem": "^2.0.31",
     "gatsby-transformer-sharp": "^2.1.18",
-    "gregbrimble-components": "^2.0.0",
+    "gregbrimble-components": "^2.3.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
