@@ -1,8 +1,31 @@
+const ThemeDefault = require("gregbrimble-components").ThemeDefault
+
+const title = `Greg Brimble`
+const description = `Personal website of Greg Brimble, Technological Engineer & Student at the University of Edinburgh`
+const url = `https://gregbrimble.com/`
+const name = `gregbrimble.com`
+const emailAddress = `hello@gregbrimble.com`
+const backgroundColor = ThemeDefault.neutral["700"]
+const primaryColor = ThemeDefault.primary["400"]
+const facebook = {
+  profileId: `100005449818562`,
+  pageId: `1015371751844897`,
+}
+const twitter = {
+  handle: `@gregbrimble`,
+}
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: title,
+    description: description,
+    url: url,
+    name: name,
+    emailAddress: emailAddress,
+    facebook: facebook,
+    twitter: twitter,
+    logoUrl: `${url}logo.png`,
+    profilePictureUrl: `${url}img/Profile_Picture.jpg`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,17 +41,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: title,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        background_color: backgroundColor,
+        theme_color: primaryColor,
+        display: `standalone`,
+        icon: `static/logo.png`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // 'gatsby-plugin-offline',
+    "gatsby-plugin-offline",
   ],
 }

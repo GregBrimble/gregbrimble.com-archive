@@ -1,7 +1,19 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/browser-apis/
- */
+import React from "react"
+import { ThemeProvider } from "styled-components"
+import { GlobalStyle, Theme9 } from "gregbrimble-components"
 
-// You can delete this file if you're not using it
+export const onServiceWorkerUpdateReady = () => {
+  window.location.reload()
+  // TODO: Toast option that the update is ready
+}
+
+export const wrapRootElement = ({ element }) => {
+  return (
+    <ThemeProvider theme={Theme9}>
+      <>
+        {element}
+        <GlobalStyle />
+      </>
+    </ThemeProvider>
+  )
+}
