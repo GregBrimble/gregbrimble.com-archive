@@ -11,3 +11,4 @@ Personal website of Greg Brimble, Technological Engineer & Student at the Univer
 * Wrap root element SSR, rather than client (think there's a Gatsby bug here)
 * Move data to `gatsby-config.js`
 * Google Analytics etc.
+* GitHub branch permissions
