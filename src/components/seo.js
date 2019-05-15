@@ -1,10 +1,3 @@
-/**
- * SEO component that queries for data with
- *  Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
@@ -32,7 +25,7 @@ function SEO({ description, lang, meta, keywords, title }) {
           }
         }
       }
-    `,
+    `
   )
 
   const metaTitle = title || site.siteMetadata.title
@@ -42,89 +35,90 @@ function SEO({ description, lang, meta, keywords, title }) {
     "@context": "http://schema.org",
     "@type": "WebSite",
     "@id": "https://gregbrimble.com/#GregtestBrimbleWebsite",
-    "about": {
+    about: {
       "@type": "Person",
       "@id": "https://gregbrimble.com/#GregBrimble",
-      "affiliation": {
+      affiliation: {
         "@type": "Organization",
         "@id": "https://gregbrimble.com/#TheUniversityOfEdinburgh",
-        "name": "The University of Edinburgh",
-        "sameAs": [
+        name: "The University of Edinburgh",
+        sameAs: [
           "https://en.wikipedia.org/wiki/University_of_Edinburgh",
           "https://www.wikidata.org/wiki/Q160302",
           "https://www.ed.ac.uk/",
         ],
-        "url": "https://www.ed.ac.uk/",
+        url: "https://www.ed.ac.uk/",
       },
-      "alumniOf": {
+      alumniOf: {
         "@type": "Organization",
         "@id": "https://gregbrimble.com/#CultsAcademy",
-        "name": "Cults Academy",
-        "sameAs": [
+        name: "Cults Academy",
+        sameAs: [
           "https://en.wikipedia.org/wiki/Cults_Academy",
           "https://www.wikidata.org/wiki/Q5193175",
           "https://cults-academy.aberdeen.sch.uk/",
         ],
-        "url": "https://cults-academy.aberdeen.sch.uk/",
+        url: "https://cults-academy.aberdeen.sch.uk/",
       },
-      "award": [
+      award: [
         "The IET Great Exhibition Diamond Jubilee Scholarship",
         "The James Clayton Undergraduate Scholarship",
       ],
-      "brand": {
+      brand: {
         "@type": "Brand",
         "@id": "https://gregbrimble.com/#GregBrimbleBrand",
-        "logo": site.siteMetadata.logoUrl,
-        "description": "gregbrimble.com",
-        "image": site.siteMetadata.logoUrl,
-        "name": "gregbrimble.com",
-        "url": "https://gregbrimble.com/",
+        logo: site.siteMetadata.logoUrl,
+        description: "gregbrimble.com",
+        image: site.siteMetadata.logoUrl,
+        name: "gregbrimble.com",
+        url: "https://gregbrimble.com/",
       },
-      "email": site.siteMetadata.emailAddress,
-      "familyName": "Brimble",
-      "gender": "http://schema.org/Male",
-      "givenName": "Greg",
-      "height": "1.74 meters",
-      "homeLocation": {
+      email: site.siteMetadata.emailAddress,
+      familyName: "Brimble",
+      gender: "http://schema.org/Male",
+      givenName: "Greg",
+      height: "1.74 meters",
+      homeLocation: {
         "@type": "Place",
         "@id": "https://gregbrimble.com/#Edinburgh",
-        "name": "Edinburgh",
-        "sameAs": [
+        name: "Edinburgh",
+        sameAs: [
           "https://en.wikipedia.org/wiki/Edinburgh",
           "https://www.wikidata.org/wiki/Q23436",
           "https://wikitravel.org/en/Edinburgh",
         ],
-        "url": "https://wikitravel.org/en/Edinburgh",
+        url: "https://wikitravel.org/en/Edinburgh",
       },
-      "honorificPrefix": "Mr.",
-      "jobTitle": "Technological Engineer",
-      "nationality": {
+      honorificPrefix: "Mr.",
+      jobTitle: "Technological Engineer",
+      nationality: {
         "@type": "Country",
         "@id": "https://gregbrimble.com/#UK",
-        "name": "United Kingdom",
-        "sameAs": [
+        name: "United Kingdom",
+        sameAs: [
           "https://en.wikipedia.org/wiki/United_Kingdom",
           "https://www.wikidata.org/wiki/Q145",
           "https://wikitravel.org/en/United_Kingdom",
         ],
-        "url": "https://wikitravel.org/en/United_Kingdom",
+        url: "https://wikitravel.org/en/United_Kingdom",
       },
-      "workLocation": {
+      workLocation: {
         "@type": "Place",
         "@id": "https://gregbrimble.com/#Edinburgh",
       },
-      "worksFor": {
+      worksFor: {
         "@type": "Organization",
         "@id": "https://gregbrimble.com/#Administrate",
-        "name": "Administrate",
-        "sameAs": "https://www.getadministrate.com/",
-        "url": "https://www.getadministrate.com/",
+        name: "Administrate",
+        sameAs: "https://www.getadministrate.com/",
+        url: "https://www.getadministrate.com/",
       },
-      "description": "Technological Engineer & Student at the University of Edinburgh",
-      "image": site.siteMetadata.profilePictureUrl,
-      "mainEntityOfPage": "http://gregbrimble.com/",
-      "name": "Greg Brimble",
-      "sameAs": [
+      description:
+        "Technological Engineer & Student at the University of Edinburgh",
+      image: site.siteMetadata.profilePictureUrl,
+      mainEntityOfPage: "http://gregbrimble.com/",
+      name: "Greg Brimble",
+      sameAs: [
         "https://www.wikidata.org/wiki/Q52444075",
         "https://twitter.com/gregbrimble",
         "https://uk.linkedin.com/in/gregbrimble",
@@ -133,39 +127,40 @@ function SEO({ description, lang, meta, keywords, title }) {
         "https://facebook.com/gregbrimble",
         "https://medium.com/@gregbrimble",
       ],
-      "url": "https://gregbrimble.com/",
+      url: "https://gregbrimble.com/",
     },
-    "accountablePerson": {
+    accountablePerson: {
       "@type": "Person",
       "@id": "https://gregbrimble.com/#GregBrimble",
     },
-    "alternativeHeadline": "Personal Website of Greg Brimble, Technological Engineer & Student at the University of Edinburgh",
-    "author": {
+    alternativeHeadline:
+      "Personal Website of Greg Brimble, Technological Engineer & Student at the University of Edinburgh",
+    author: {
       "@type": "Person",
       "@id": "https://gregbrimble.com/#GregBrimble",
     },
-    "copyrightHolder": {
+    copyrightHolder: {
       "@type": "Person",
       "@id": "https://gregbrimble.com/#GregBrimble",
     },
-    "copyrightYear": "2015",
-    "dateCreated": "2015-02-06",
-    "dateModified": site.buildTime,
-    "datePublished": "2015-02-06",
-    "headline": site.siteMetadata.title,
-    "inLanguage": "en",
-    "isAccessibleForFree": "http://schema.org/True",
-    "isFamilyFriendly": "http://schema.org/True",
-    "keywords": "greg brimble,technology,website,internet,technological engineer",
-    "license": "https://github.com/GregBrimble/gregbrimble.com/LICENSE",
-    "mainEntity": {
+    copyrightYear: "2015",
+    dateCreated: "2015-02-06",
+    dateModified: site.buildTime,
+    datePublished: "2015-02-06",
+    headline: site.siteMetadata.title,
+    inLanguage: "en",
+    isAccessibleForFree: "http://schema.org/True",
+    isFamilyFriendly: "http://schema.org/True",
+    keywords: "greg brimble,technology,website,internet,technological engineer",
+    license: "https://github.com/GregBrimble/gregbrimble.com/LICENSE",
+    mainEntity: {
       "@type": "Person",
       "@id": "https://gregbrimble.com/#GregBrimble",
     },
-    "description": site.siteMetadata.description,
-    "name": "gregbrimble.com",
-    "sameAs": "https://www.facebook.com/gregbrimblewebsite",
-    "url": "https://gregbrimble.com/",
+    description: site.siteMetadata.description,
+    name: "gregbrimble.com",
+    sameAs: "https://www.facebook.com/gregbrimblewebsite",
+    url: "https://gregbrimble.com/",
   }
 
   return (
@@ -197,7 +192,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `og:site_name`,
-          content: site.siteMetadata.name
+          content: site.siteMetadata.name,
         },
         {
           property: `og:image`,
@@ -205,15 +200,15 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `fb:admins`,
-          content: site.siteMetadata.facebook.profileId
+          content: site.siteMetadata.facebook.profileId,
         },
         {
           property: `fb:pages`,
-          content: site.siteMetadata.facebook.pageId
+          content: site.siteMetadata.facebook.pageId,
         },
         {
           property: `fb:profile_id`,
-          content: site.siteMetadata.facebook.profileId
+          content: site.siteMetadata.facebook.profileId,
         },
         {
           name: `twitter:card`,
@@ -221,11 +216,11 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:site`,
-          content: site.siteMetadata.twitter.handle
+          content: site.siteMetadata.twitter.handle,
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.twitter.handle
+          content: site.siteMetadata.twitter.handle,
         },
         {
           name: `twitter:title`,
@@ -237,16 +232,16 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:image`,
-          content: site.siteMetadata.logoUrl
-        }
+          content: site.siteMetadata.logoUrl,
+        },
       ]
         .concat(
           keywords.length > 0
             ? {
-              name: `keywords`,
-              content: keywords.join(`,`),
-            }
-            : [],
+                name: `keywords`,
+                content: keywords.join(`,`),
+              }
+            : []
         )
         .concat(meta)}
     >
