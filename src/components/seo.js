@@ -114,7 +114,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         url: "https://www.getadministrate.com/",
       },
       description:
-        "Technological Engineer & Student at the University of Edinburgh",
+        "Technological Engineer & penultimate year student at the University of Edinburgh",
       image: site.siteMetadata.profilePictureUrl,
       mainEntityOfPage: "http://gregbrimble.com/",
       name: "Greg Brimble",
@@ -134,7 +134,7 @@ function SEO({ description, lang, meta, keywords, title }) {
       "@id": "https://gregbrimble.com/#GregBrimble",
     },
     alternativeHeadline:
-      "Personal Website of Greg Brimble, Technological Engineer & Student at the University of Edinburgh",
+      "Personal Website of Greg Brimble, Technological Engineer & penultimate year student at the University of Edinburgh",
     author: {
       "@type": "Person",
       "@id": "https://gregbrimble.com/#GregBrimble",

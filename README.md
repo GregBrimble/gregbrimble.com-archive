@@ -1,5 +1,5 @@
 # gregbrimble.com
-Personal website of Greg Brimble, Technological Engineer & Student at the University of Edinburgh
+Personal website of Greg Brimble, Technological Engineer & penultimate year student at the University of Edinburgh
 
 ## Roadmap
 * Extract out components to `gregbrimble-components`
