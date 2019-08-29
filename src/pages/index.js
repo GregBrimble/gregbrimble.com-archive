@@ -53,7 +53,7 @@ const IndexPage = () => (
           International Children’s Advisory Network (iCAN Research)
         </ExternalLink>
         , a charity focused on advocating for research and innovation in
-        paediatric clinical healthcare.
+        pediatric clinical healthcare.
       </Body1>
       <Body1>
         Check out my social links below, or email me at
