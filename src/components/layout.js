@@ -37,7 +37,7 @@ const Layout = ({ includeFooter, children }) => {
           maxWidth: 960,
           padding: `0px 1.0875rem`,
           paddingTop: 0,
-          paddingBottom: `2rem`
+          paddingBottom: `2rem`,
         }}
       >
         <main
