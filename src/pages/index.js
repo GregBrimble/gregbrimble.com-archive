@@ -36,8 +36,8 @@ const IndexPage = () => (
         Institute of Mechanical Engineers.
       </Body1>
       <Body1>
-        Most recently, I have worked a Research & Development Software Engineer
-        at
+        Most recently, I have worked as a Research & Development Software
+        Engineer at
         {` `}
         <ExternalLink href="https://www.getadministrate.com/about/our-team/">
           Administrate
