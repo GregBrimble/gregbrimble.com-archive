@@ -1,9 +1,9 @@
-import React from "react"
-import PropTypes from "prop-types"
-import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import React from "react";
+import PropTypes from "prop-types";
+import { Helmet } from "react-helmet";
+import { useStaticQuery, graphql } from "gatsby";
 
-function SEO({ description, lang, meta, keywords, title }) {
+const SEO = ({ description, lang, meta, keywords, title }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -26,10 +26,10 @@ function SEO({ description, lang, meta, keywords, title }) {
         }
       }
     `
-  )
+  );
 
-  const metaTitle = title || site.siteMetadata.title
-  const metaDescription = description || site.siteMetadata.description
+  const metaTitle = title || site.siteMetadata.title;
+  const metaDescription = description || site.siteMetadata.description;
 
   const jsonld = {
     "@context": "http://schema.org",
@@ -161,7 +161,7 @@ function SEO({ description, lang, meta, keywords, title }) {
     name: "gregbrimble.com",
     sameAs: "https://www.facebook.com/gregbrimblewebsite",
     url: "https://gregbrimble.com/",
-  }
+  };
 
   return (
     <Helmet
@@ -247,14 +247,8 @@ function SEO({ description, lang, meta, keywords, title }) {
     >
       <script type="application/ld+json">{JSON.stringify(jsonld)}</script>
     </Helmet>
-  )
-}
-
-SEO.defaultProps = {
-  lang: `en`,
-  meta: [],
-  keywords: [],
-}
+  );
+};
 
 SEO.propTypes = {
   description: PropTypes.string,
@@ -262,6 +256,12 @@ SEO.propTypes = {
   meta: PropTypes.array,
   keywords: PropTypes.arrayOf(PropTypes.string),
   title: PropTypes.string,
-}
+};
 
-export default SEO
+SEO.defaultProps = {
+  lang: `en`,
+  meta: [],
+  keywords: [],
+};
+
+export default SEO;
