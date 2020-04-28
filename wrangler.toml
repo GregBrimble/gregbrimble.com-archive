@@ -2,7 +2,7 @@ name = "gregbrimble"
 type = "javascript"
 account_id = "5a883b414d4090a1442b20361f3c43a9"
 zone_id = "b45d1950557ee2c633714eef986d537a"
-routes = "*gregbrimble.com/*"
+route = "*gregbrimble.com/*"
 workers_dev = false
 
 [site]

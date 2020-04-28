@@ -35,7 +35,7 @@ module.exports = {
       },
       {
         name: "kv-orm-cf-workers",
-        href: "https://github.com/kv-orm/core",
+        href: "https://github.com/kv-orm/cf-workers",
         status: "Maintained",
         description: "A datastore plugin for kv-orm for Cloudflare Workers KV.",
         date: "2019–2020",
@@ -49,8 +49,8 @@ module.exports = {
         date: "2019–2020",
       },
       {
-        name: "Cloudflare Workers Dashboard",
-        href: "https://github.com/GregBrimble/cf-workers-dashboard",
+        name: "workers.sh",
+        href: "https://workers.sh/",
         status: "Active",
         description: "A featureful dashboard for managing Cloudflare Workers.",
         date: "2020",

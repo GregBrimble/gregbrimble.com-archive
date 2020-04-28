@@ -11,7 +11,7 @@ const Badge = ({ status }) => {
       );
     case "Completed":
       return (
-        <span className="inline-flex items-center px-3 py-0.5 rounded-full text-xs font-medium leading-5 bg-green-100 text-green-800">
+        <span className="inline-flex items-center px-3 py-0.5 rounded-full text-xs font-medium leading-5 bg-indigo-100 text-indigo-800">
           Completed
         </span>
       );
