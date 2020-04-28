@@ -1,0 +1,16 @@
+{
+  "name": "worker",
+  "private": true,
+  "description": "Worker to serve static site",
+  "version": "1.0.0",
+  "author": {
+    "name": "Greg Brimble",
+    "url": "https://gregbrimble.com",
+    "email": "developer@gregbrimble.com"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "0.0.5"
+  }
+}
