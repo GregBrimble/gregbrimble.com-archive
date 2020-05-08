@@ -56,9 +56,17 @@ module.exports = {
         date: "2020",
       },
       {
+        name: "wait-until-all",
+        href: "https://github.com/GregBrimble/wait-until-all",
+        status: "Maintained",
+        description:
+          "A Promise registration and execution utility, useful within a FetchEvent context.",
+        date: "2020",
+      },
+      {
         name: "TailwindUI Crawler Action",
         href: "https://github.com/GregBrimble/tailwindui-crawler-action",
-        status: "Active",
+        status: "Maintained",
         description:
           "A GitHub Action to automate the crawling and cataloging of the Tailwind UI components into a private GitHub repository.",
         date: "2020",
@@ -70,6 +78,14 @@ module.exports = {
         description:
           "A template Cloudflare Workers Typescript server & client.",
         date: "2020",
+      },
+      {
+        name: "Typescript Template",
+        href: "https://github.com/GregBrimble/typescript-template",
+        status: "Maintained",
+        description:
+          "A template Typescript project with Prettier and Jest built-in.",
+        date: "2019–2020",
       },
       {
         name: "Dark Static Assets Action",
@@ -119,7 +135,7 @@ module.exports = {
         date: "2018",
       },
       {
-        name: "wrangler-cloudflared-template",
+        name: "Wrangler Cloudflared Template",
         href: "https://github.com/GregBrimble/wrangler-cloudflared-template",
         status: "Archived",
         description:
