@@ -1,3 +1,3 @@
 # gregbrimble.com
 
-Personal website of Greg Brimble, Technological Engineer & penultimate year student at the University of Edinburgh
+Personal website of Greg Brimble, Technological Engineer & final year student at the University of Edinburgh

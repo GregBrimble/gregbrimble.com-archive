@@ -59,8 +59,19 @@ const IndexPage = () => {
           <div className="prose">
             <h3 id="about-me">About Me</h3>
             <p>
-              I'm a Technological Engineer, and a penultimate year student at
-              the University of Edinburgh. I'm currently studying
+              I'm currently working as a Product Strategy Software Engineer at{" "}
+              <a
+                href="https://www.cloudflare.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Cloudflare
+              </a>
+              , specifically as a member of the Speed team.
+            </p>
+            <p>
+              I'm also a final year student at the University of Edinburgh,
+              studying
               {` `}
               <a
                 href="http://www.drps.ed.ac.uk/17-18/dpt/utaisen.htm"
@@ -69,21 +80,21 @@ const IndexPage = () => {
               >
                 Artificial Intelligence and Software Engineering
               </a>
-              , and have previously studied Electrical and Mechanical
-              Engineering. I have been a recipient of
+              , and previously, Electrical and Mechanical Engineering. I have
+              been a recipient of
               {` `}
               <a
                 href="https://conferences.theiet.org/achievement/scholarships/diamond/1851.cfm"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                The IET Great Exhibition Scholarship 2015
+                The IET Great Exhibition Scholarship
               </a>
-              , as well as the James Clayton Undergraduate Scholarship 2015 from
-              the Institute of Mechanical Engineers.
+              , as well as the James Clayton Undergraduate Scholarship from the
+              Institute of Mechanical Engineers.
             </p>
             <p>
-              Most recently, I have worked as a Research {"&"} Development
+              Before Cloudflare, I worked as a Research {"&"} Development
               Software Engineer at
               {` `}
               <a
@@ -93,8 +104,7 @@ const IndexPage = () => {
               >
                 Administrate
               </a>
-              —a cloud-based, SaaS company based in Edinburgh, developing
-              software for training providers.
+              —a cloud-based SaaS company, based in Edinburgh.
             </p>
             <p>
               I have a massive passion for technology, programming, engineering,

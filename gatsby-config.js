@@ -1,5 +1,5 @@
 const title = `Greg Brimble`;
-const description = `Personal website of Greg Brimble, Technological Engineer & penultimate year student at the University of Edinburgh`;
+const description = `Personal website of Greg Brimble, Technological Engineer & final year student at the University of Edinburgh`;
 const url = `https://gregbrimble.com/`;
 const name = `gregbrimble.com`;
 const emailAddress = `hello@gregbrimble.com`;
