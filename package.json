@@ -24,7 +24,8 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-helmet": "6.0.0",
-    "react-transition-group": "4.4.1"
+    "react-transition-group": "4.4.1",
+    "snyk": "^1.336.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "2.2.0",
@@ -43,7 +44,9 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -51,5 +54,6 @@
   },
   "bugs": {
     "url": "https://github.com/gregbrimble/gregbrimble.com/issues"
-  }
+  },
+  "snyk": true
 }
