@@ -56,6 +56,24 @@ module.exports = {
         date: "2020",
       },
       {
+        name: "Cloudflare Workers Access",
+        href:
+          "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-access",
+        status: "Maintained",
+        description:
+          "Authenticate with Cloudflare Access from within a Cloudflare Worker.",
+        date: "2020",
+      },
+      {
+        name: "Cloudflare Workers CustomEvent",
+        href:
+          "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-customevent",
+        status: "Maintained",
+        description:
+          "A polyfill CustomEvent implementation for Cloudflare Workers.",
+        date: "2020",
+      },
+      {
         name: "wait-until-all",
         href: "https://github.com/GregBrimble/wait-until-all",
         status: "Maintained",
