@@ -34,7 +34,7 @@ module.exports = {
         date: "2019–2020",
       },
       {
-        name: "kv-orm-cf-workers",
+        name: "kv-orm Cloudflare Workers",
         href: "https://github.com/kv-orm/cf-workers",
         status: "Maintained",
         description: "A datastore plugin for kv-orm for Cloudflare Workers KV.",
