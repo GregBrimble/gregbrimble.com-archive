@@ -90,6 +90,14 @@ module.exports = {
         date: "2020",
       },
       {
+        name: 'Cloudflare TV: Say "Hello" to the Class of 2020',
+        href: "https://cloudflare.tv/event/2KbnUNcBZUacOLjFynOyzo",
+        status: "Completed",
+        description:
+          "A television segment about internships in the summer of 2020.",
+        date: "2020",
+      },
+      {
         name: "wait-until-all",
         href: "https://github.com/GregBrimble/wait-until-all",
         status: "Maintained",
