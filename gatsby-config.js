@@ -49,6 +49,14 @@ module.exports = {
         date: "2019–2020",
       },
       {
+        name: "The 2020 Web Almanac",
+        href: "https://almanac.httparchive.org/en/2020/",
+        status: "Active",
+        description:
+          "Analysis for the CMS chapter of the 2020 Web Alamanc by HTTP Archive.",
+        date: "2020",
+      },
+      {
         name: "workers.sh",
         href: "https://workers.sh/",
         status: "Active",
@@ -62,6 +70,14 @@ module.exports = {
         status: "Maintained",
         description:
           "Authenticate with Cloudflare Access from within a Cloudflare Worker.",
+        date: "2020",
+      },
+      {
+        name: "Cloudflare Workers hCaptcha",
+        href:
+          "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-hcaptcha",
+        status: "Maintained",
+        description: "Verify a hCaptcha token from within a Cloudflare Worker.",
         date: "2020",
       },
       {
