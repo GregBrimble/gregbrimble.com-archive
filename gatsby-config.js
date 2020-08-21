@@ -64,6 +64,14 @@ module.exports = {
         date: "2020",
       },
       {
+        name: "Cloudflare Workers GraphQL",
+        href:
+          "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-graphql",
+        status: "Maintained",
+        description: "A lightweight GraphQL Server for Cloudflare Workers.",
+        date: "2020",
+      },
+      {
         name: "Cloudflare Workers Access",
         href:
           "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-access",
