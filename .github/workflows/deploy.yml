@@ -20,6 +20,6 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy
-        uses: cloudflare/wrangler-action@1.1.0
+        uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
