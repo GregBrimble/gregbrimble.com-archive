@@ -64,6 +64,14 @@ module.exports = {
         date: "2020",
       },
       {
+        name: "Cloudflare Workers Git Gateway",
+        href:
+          "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-git-gateway",
+        status: "Active",
+        description: "Perform git actions from within a Cloudflare Worker.",
+        date: "2020",
+      },
+      {
         name: "Cloudflare Workers GraphQL",
         href:
           "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-graphql",
@@ -86,6 +94,15 @@ module.exports = {
           "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-hcaptcha",
         status: "Maintained",
         description: "Verify a hCaptcha token from within a Cloudflare Worker.",
+        date: "2020",
+      },
+      {
+        name: "Cloudflare Workers Fetch Helpers",
+        href:
+          "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-fetch-helpers",
+        status: "Maintained",
+        description:
+          "A collection of chainable helpers to adapt the Fetch API.",
         date: "2020",
       },
       {
