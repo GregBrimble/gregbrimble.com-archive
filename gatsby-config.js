@@ -97,6 +97,14 @@ module.exports = {
         date: "2020",
       },
       {
+        name: "Cloudflare Workers Router",
+        href:
+          "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-router",
+        status: "Maintained",
+        description: "A router for Cloudflare Workers.",
+        date: "2020",
+      },
+      {
         name: "Cloudflare Workers Fetch Helpers",
         href:
           "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-fetch-helpers",
