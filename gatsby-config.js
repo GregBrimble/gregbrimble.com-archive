@@ -276,9 +276,9 @@ module.exports = {
     "gatsby-plugin-layout",
     "gatsby-plugin-postcss",
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        fonts: [`Lora`, `Open Sans`],
+        fonts: [{ family: `Lora` }, { family: `Open Sans` }],
       },
     },
   ],
