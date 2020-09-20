@@ -23,4 +23,8 @@ module.exports = {
   variants: {
     margin: ["first", "responsive"],
   },
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+  },
 };

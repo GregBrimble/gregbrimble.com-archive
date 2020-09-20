@@ -56,7 +56,7 @@ const IndexPage = () => {
           </ul>
         </div>
         <div className="lg:col-span-8">
-          <div className="prose">
+          <div className="bio">
             <h3 id="about-me">About Me</h3>
             <p>
               I'm currently working as a Product Strategy Software Engineer at{" "}

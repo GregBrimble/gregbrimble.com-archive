@@ -43,7 +43,7 @@ const Badge = ({ status }) => {
 };
 
 const Projects = ({ projects }) => (
-  <div className="mt-4 grid gap-16 pt-4 lg:grid-cols-3 lg:col-gap-5 lg:row-gap-12">
+  <div className="mt-4 grid gap-16 pt-4 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
     {projects.map(({ name, href, status, description, date }) => (
       <div key={name}>
         <div>
