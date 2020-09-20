@@ -2,11 +2,13 @@ import React from "react";
 import { Link } from "gatsby";
 
 import SEO from "../components/SEO";
+import Fonts from "../components/Fonts";
 
 const NotFoundPage = () => {
   return (
     <>
       <SEO title={`404 Not Found`} />
+      <Fonts />
 
       <div className="prose">
         <h1 className="font-serif">404 Not Found</h1>

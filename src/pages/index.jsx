@@ -1,6 +1,7 @@
 import React from "react";
 
 import SEO from "../components/SEO";
+import Fonts from "../components/Fonts";
 import Projects from "../components/Projects";
 import { useStaticQuery, graphql } from "gatsby";
 
@@ -24,6 +25,7 @@ const IndexPage = () => {
   return (
     <>
       <SEO />
+      <Fonts />
 
       <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-baseline">
         <h1 className="text-3xl leading-8 font-light font-serif text-gray-900 sm:text-3xl sm:leading-9">
