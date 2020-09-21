@@ -34,7 +34,7 @@ const SEO = ({ description, lang, meta, keywords, title }) => {
   const jsonld = {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "@id": "https://gregbrimble.com/#GregtestBrimbleWebsite",
+    "@id": "https://gregbrimble.com/#GregBrimbleWebsite",
     about: {
       "@type": "Person",
       "@id": "https://gregbrimble.com/#GregBrimble",
