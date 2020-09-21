@@ -32,7 +32,7 @@ const SEO = ({ description, lang, meta, keywords, title }) => {
   const metaDescription = description || site.siteMetadata.description;
 
   const jsonld = {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org/",
     "@type": "WebSite",
     "@id": "https://gregbrimble.com/#GregBrimbleWebsite",
     about: {
