@@ -106,13 +106,13 @@ const SEO = ({ description, lang, meta, keywords, title }) => {
         "@type": "Place",
         "@id": "https://gregbrimble.com/#Edinburgh",
       },
-      // worksFor: {
-      //   "@type": "Organization",
-      //   "@id": "https://gregbrimble.com/#Administrate",
-      //   name: "Administrate",
-      //   sameAs: "https://www.getadministrate.com/",
-      //   url: "https://www.getadministrate.com/",
-      // },
+      worksFor: {
+        "@type": "Organization",
+        "@id": "https://gregbrimble.com/#Cloudflare",
+        name: "Cloudflare",
+        sameAs: "https://www.cloudflare.com/",
+        url: "https://www.cloudflare.com/",
+      },
       description:
         "Technological Engineer & final year student at the University of Edinburgh",
       image: site.siteMetadata.profilePictureUrl,

@@ -31,7 +31,7 @@ module.exports = {
         status: "Active",
         description:
           "A Node.js ORM (object relational mapper) for key-value datastores.",
-        date: "2019–2020",
+        date: "2018–2020",
       },
       {
         name: "kv-orm Cloudflare Workers",

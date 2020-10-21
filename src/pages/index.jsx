@@ -61,19 +61,20 @@ const IndexPage = () => {
           <div className="bio">
             <h3 id="about-me">About Me</h3>
             <p>
-              I'm currently working as a Product Strategy Software Engineer at{" "}
+              After a successful internship last summer, I will be returning to{" "}
               <a
                 href="https://www.cloudflare.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Cloudflare
-              </a>
-              , specifically as a member of the Speed team.
+              </a>{" "}
+              next year as a full-time Software Engineer in Emerging
+              Technologies and Incubation.
             </p>
             <p>
-              I'm also a final year student at the University of Edinburgh,
-              studying
+              Presently, I am a final year student at the University of
+              Edinburgh, studying
               {` `}
               <a
                 href="http://www.drps.ed.ac.uk/17-18/dpt/utaisen.htm"
