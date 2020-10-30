@@ -57,6 +57,13 @@ module.exports = {
         date: "2020",
       },
       {
+        name: "VSCode Workers",
+        href: "https://github.com/glenstack/vscode-workers",
+        status: "Active",
+        description: "Visual Studio Code running on Cloudflare Workers.",
+        date: "2020",
+      },
+      {
         name: "workers.sh",
         href: "https://workers.sh/",
         status: "Active",
