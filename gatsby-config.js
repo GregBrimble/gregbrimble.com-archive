@@ -57,6 +57,14 @@ module.exports = {
         date: "2020",
       },
       {
+        name: "Functional Reasoner for Acquiring Novel Knowledge (FRANK)",
+        href: "https://github.com/frank-lab-ai/franky",
+        status: "Active",
+        description:
+          "A question-answering system capable of inferring new facts from its knowledge graph sources.",
+        date: "2020",
+      },
+      {
         name: "VSCode Workers",
         href: "https://github.com/glenstack/vscode-workers",
         status: "Active",
