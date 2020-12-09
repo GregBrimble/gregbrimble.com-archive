@@ -50,7 +50,7 @@ module.exports = {
       },
       {
         name: "The 2020 Web Almanac",
-        href: "https://almanac.httparchive.org/en/2020/",
+        href: "https://almanac.httparchive.org/en/2020/cms",
         status: "Active",
         description:
           "Analysis for the CMS chapter of the 2020 Web Alamanc by HTTP Archive.",
