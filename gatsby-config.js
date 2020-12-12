@@ -120,6 +120,15 @@ module.exports = {
         date: "2020",
       },
       {
+        name: "Cloudflare Workers Function Memoizer",
+        href:
+          "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-function-memoizer",
+        status: "Maintained",
+        description:
+          "A wrapper which utilizes Cloudflare Workers KV to memoize a function.",
+        date: "2020",
+      },
+      {
         name: "Cloudflare Workers Fetch Helpers",
         href:
           "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-fetch-helpers",
