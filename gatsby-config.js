@@ -26,6 +26,14 @@ module.exports = {
     profilePictureUrl: `${url}img/Profile_Picture.jpg`,
     projects: [
       {
+        name: "A new project",
+        href: "https://github.com/gregbrimble",
+        status: "Active",
+        description:
+          "A new project!!",
+        date: "2020",
+      },
+      {
         name: "kv-orm",
         href: "https://github.com/kv-orm/core",
         status: "Active",
