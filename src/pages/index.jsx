@@ -114,7 +114,7 @@ const IndexPage = () => {
               and artificial intelligence; and I have previously volunteered as
               a Technological Engineer at the{` `}
               <a
-                href="https://www.icanresearch.com/"
+                href="https://www.icanresearch.org/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
