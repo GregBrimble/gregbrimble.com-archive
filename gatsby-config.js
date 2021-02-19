@@ -31,14 +31,14 @@ module.exports = {
         status: "Active",
         description:
           "A Node.js ORM (object relational mapper) for key-value datastores.",
-        date: "2018–2020",
+        date: "2018–2021",
       },
       {
         name: "kv-orm Cloudflare Workers",
         href: "https://github.com/kv-orm/cf-workers",
         status: "Maintained",
         description: "A datastore plugin for kv-orm for Cloudflare Workers KV.",
-        date: "2019–2020",
+        date: "2019–2021",
       },
       {
         name: "kv-orm Cloudflare Workers Example",
@@ -46,7 +46,7 @@ module.exports = {
         status: "Active",
         description:
           "An example showcasing kv-orm running on Cloudflare Workers.",
-        date: "2019–2020",
+        date: "2019–2021",
       },
       {
         name: "The 2020 Web Almanac",
@@ -62,21 +62,22 @@ module.exports = {
         status: "Active",
         description:
           "A question-answering system capable of inferring new facts from its knowledge graph sources.",
-        date: "2020",
+        date: "2020–2021",
+      },
+      {
+        name: "Cloudflare Workers Discord Bot",
+        href:
+          "https://github.com/cloudflare-workers-community/cloudflare-workers-discord-bot",
+        status: "Active",
+        description: "A bot for the Cloudflare Workers Discord server.",
+        date: "2021",
       },
       {
         name: "VSCode Workers",
         href: "https://github.com/glenstack/vscode-workers",
         status: "Active",
         description: "Visual Studio Code running on Cloudflare Workers.",
-        date: "2020",
-      },
-      {
-        name: "workers.sh",
-        href: "https://workers.sh/",
-        status: "Active",
-        description: "A featureful dashboard for managing Cloudflare Workers.",
-        date: "2020",
+        date: "2020–2021",
       },
       {
         name: "Cloudflare Workers Git Gateway",
@@ -84,7 +85,7 @@ module.exports = {
           "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-git-gateway",
         status: "Active",
         description: "Perform git actions from within a Cloudflare Worker.",
-        date: "2020",
+        date: "2020–2021",
       },
       {
         name: "Linc FAB Action",
@@ -97,9 +98,9 @@ module.exports = {
         name: "Cloudflare Workers GraphQL",
         href:
           "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-graphql",
-        status: "Maintained",
+        status: "Active",
         description: "A lightweight GraphQL Server for Cloudflare Workers.",
-        date: "2020",
+        date: "2020–2021",
       },
       {
         name: "Cloudflare Workers Access",
@@ -109,6 +110,22 @@ module.exports = {
         description:
           "Authenticate with Cloudflare Access from within a Cloudflare Worker.",
         date: "2020",
+      },
+      {
+        name: "Cloudflare Workers Discord Bot",
+        href:
+          "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-discord-bot",
+        status: "Active",
+        description: "Interact with Discord from within Cloudflare Workers.",
+        date: "2021",
+      },
+      {
+        name: "Cloudflare Workers Algolia Search",
+        href:
+          "https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-algolia-search",
+        status: "Maintained",
+        description: "An Algolia search client for Cloudflare Workers.",
+        date: "2021",
       },
       {
         name: "Cloudflare Workers hCaptcha",
@@ -191,7 +208,7 @@ module.exports = {
         status: "Maintained",
         description:
           "A template Typescript project with Prettier and Jest built-in.",
-        date: "2019–2020",
+        date: "2019–2021",
       },
       {
         name: "Dark Static Assets Action",
@@ -206,7 +223,14 @@ module.exports = {
         href: "https://github.com/GregBrimble/gregbrimble.com",
         status: "Maintained",
         description: `${description}.`,
-        date: "2014–2020",
+        date: "2014–2021",
+      },
+      {
+        name: "workers.sh",
+        href: "https://workers.sh/",
+        status: "Icebox",
+        description: "A featureful dashboard for managing Cloudflare Workers.",
+        date: "2020",
       },
       {
         name: "Typed Tables",
