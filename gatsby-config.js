@@ -327,7 +327,6 @@ module.exports = {
         icon: `static/logo.png`,
       },
     },
-    "gatsby-plugin-offline",
     "gatsby-plugin-layout",
     "gatsby-plugin-postcss",
   ],
